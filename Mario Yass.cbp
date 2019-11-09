@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mario Yass" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mario Yass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-main" />
+					<Add option="-lsfml-system" />
+					<Add option="-lsfml-network" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mario Yass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-main" />
+					<Add option="-lsfml-system" />
+					<Add option="-lsfml-network" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-main" />
+			<Add option="-lsfml-system" />
+			<Add option="-lsfml-network" />
+			<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="AK.cpp" />
+		<Unit filename="AK.h" />
+		<Unit filename="Collision.cpp" />
+		<Unit filename="Collision.hpp" />
+		<Unit filename="Ennemi.cpp" />
+		<Unit filename="Ennemi.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="InfoRectangle.cpp" />
+		<Unit filename="InfoRectangle.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="RoundedRectangleShape.cpp" />
+		<Unit filename="RoundedRectangleShape.h" />
+		<Unit filename="Sniper.cpp" />
+		<Unit filename="Sniper.h" />
+		<Unit filename="Tree.cpp" />
+		<Unit filename="Tree.h" />
+		<Unit filename="Weapon.cpp" />
+		<Unit filename="Weapon.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
